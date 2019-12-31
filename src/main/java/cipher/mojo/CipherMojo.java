@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Properties;
 
 /**
- * 建议在generate-resources的phase中执行
+ * 建议在process-sources的phase中执行
  */
 @Mojo(name = "cipher")
 public class CipherMojo extends AbstractMojo {
